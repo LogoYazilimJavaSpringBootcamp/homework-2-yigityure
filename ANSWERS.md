@@ -117,7 +117,7 @@ JVM'deki garbage collector ile C++'daki garbage collector arasında basit ama ö
 
 ### 4. Soru
 
-1. Factory Pattern
+**1. Factory Pattern**
 
    Nesneleri oluştururken bir interface üzerinden oluştururuz. Ata sınıf oluşturup, kalıtım uygulamaktansa; bir interface oluşturup, alt sınıflarımızı bu interface üzerinden tanımlarız.
 
@@ -195,7 +195,7 @@ JVM'deki garbage collector ile C++'daki garbage collector arasında basit ama ö
     Cheetah's speed: 100
    ```
 
-2. Abstract Factory
+**2. Abstract Factory**
 
    Abstract factory, factory design pattern'in bir üst halidir. Artık interface bir sınıf üretmek yerine factory üretir.
 
@@ -346,13 +346,13 @@ JVM'deki garbage collector ile C++'daki garbage collector arasında basit ama ö
     South African Cheetah's speed: 120
    ```
 
-3. Builder Pattern
+**3. Builder Pattern**
 
    Builder Pattern, abstract factory pattern'inden daha kapsamlı bir tasarımdır. Burada nesneler adım adım yaratılır.
 
    Genellikle en üstte bir dizi tutan sınıf oluşturulur. Bu sınıfın kullandığı bir interface olur. Diziye ekleyeceğimiz nesneler bu interface'den türetilen sınıflardan oluşur.
 
-4. Prototype Pattern
+**4. Prototype Pattern**
 
    Prototype pattern'de interface artık bir nesnenin prototipi olacak. İstediğimiz objenin kopyalarını oluşturacak. Bu desing patern'in amacı maliyeti azaltmaktır. Sürekli kullanacağımız bir nesne varsa sürekli veritabanından çağırmak yerine, bir defa çağırdıktan sonra, çağırdığımız nesne üzerinden yeni nesneler kopyalarız. Bu sayede veritabanı ile iletişimi azaltmış oluruz, yani maliyet ve hızdan tasarruf ederiz.
 
@@ -465,7 +465,7 @@ JVM'deki garbage collector ile C++'daki garbage collector arasında basit ama ö
     Cat: Cheetah
    ```
 
-5. Singleton
+**5. Singleton**
 
    Singleton pattern, sadece tek bir nesneye ihtiyaç duyduğumuz durumda kullanılır. Veritabanından sürekli veri çekmemizin gerekmediği, yeni nesneye ihtiyaç duymadığımız durumda kullanılır.
 
